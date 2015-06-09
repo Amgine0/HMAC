@@ -25,14 +25,9 @@ class Request {
      * Version constant, to ensure encoding/decoding are compatible.
      *
      * NOTE: for this project the first two version numbers are used to determine encoding/hashing compatibility:
-     *  /major/./minor/./stability/./build or release/
-     * Stability indicates
-     *  0           alpha, unstable
-     *  1           beta, unstable
-     *  2           rc, mostly stable
-     *  3           stable release
+     *  /major/./minor/./patch/./irrelevant_author_index/
      **/
-    const VERSION = '0.0.0.0';
+    const VERSION = '0.0.1.0';
 
     /**
      * Array of authentication parameters.
