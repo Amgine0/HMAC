@@ -1,0 +1,24 @@
+{
+    "name": "Amgine0/HMAC",
+    "description": "Manage HMAC authentication",
+    "license": "WTFPL",
+    "keywords": ["hmac"],
+    "authors": [
+        {
+            "name": "Amgine",
+            "email": "amgine@wikimedians.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amgine0\\HMAC\\": "src/",
+            "Amgine0\\HMAC\\Model\\": "src/models/"
+        }
+    }
+}
