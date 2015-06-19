@@ -1,6 +1,7 @@
 {
-    "name": "Amgine0/HMAC",
-    "description": "Manage HMAC authentication",
+    "name": "Amgine0/hmac",
+    "description": "Manages Hash-based message authentication code.",
+    "homepage": "https://github.com/Amgine0/HMAC",
     "license": "WTFPL",
     "keywords": ["hmac"],
     "authors": [
